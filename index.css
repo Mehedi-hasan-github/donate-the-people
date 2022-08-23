@@ -69,3 +69,34 @@ body{
 hr{
     width: 50%;
 }
+
+.donation-plan{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.donation-plan-div .food {
+     height: 200px;
+     background-color: #a9c3c3;
+     padding: 15px;
+     margin: 10px;
+     border-radius: 5px;
+     text-align: left;
+}
+.donation-plan-div .shelter {
+     height: 200px;
+     background-color: #f4c49a;
+     padding: 15px;
+     margin: 10px;
+     border-radius: 5px;
+     text-align: left;
+}
+.donation-plan-div .education {
+     height: 200px;
+     background-color: #d2eaa2;
+     padding: 15px;
+     margin: 10px;
+     border-radius: 5px;
+     text-align: left;
+}
