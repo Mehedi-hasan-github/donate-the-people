@@ -27,6 +27,12 @@ body{
     align-items: center;
     justify-content: center;
 } 
+.div-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .donate-galary p{
     color: white;    
@@ -41,7 +47,7 @@ body{
     color: white;
     font-weight: bold;
     background-image: linear-gradient(90deg,rgb(239, 45, 45),purple);
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .donation-area{
@@ -58,12 +64,7 @@ body{
     font-weight: bold;
 }  
 
-.donation-amount div span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .donation-amount div:nth-child(3){
     background-color: #f0ded7;
@@ -113,3 +114,21 @@ hr{
     padding: 0 20px;
     width: 50%;
 }
+
+.updates{
+    text-align: center;
+}
+.updates div{
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    width: 50%;
+    background-color:#f4c49a ;
+}
+ .updates div input{
+    border: none;
+    background-color: #d4d9dd;
+    height: 20px;
+    padding: 6px;
+    outline: none;
+ }
