@@ -14,6 +14,7 @@ body{
 }
 
 .h1-tag{
+    text-align: center;
     margin-top: 0px;
     padding-top: 70px;
     color: black;
@@ -120,6 +121,22 @@ hr{
 .donate-them div{
     padding: 0 20px;
     width: 50%;
+}
+
+.our-goal{
+    width: 80%;
+    margin: 0 auto;
+}
+.our-goal div div{
+    padding: 10px;
+}
+.our-goal p{
+    width: 300px;
+    height: 50px;
+}
+.our-goal div img{
+    height: 250px;
+    width: 300px;
 }
 
 .updates{
