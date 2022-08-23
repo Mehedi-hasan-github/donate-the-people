@@ -70,7 +70,11 @@ body{
     background-color: #f0ded7;
     border: 1px solid tomato;
 }
-
+#other-amount{
+    border: none;
+    outline: none;
+    /* border-bottom: 1px solid black; */
+}
 hr{
     width: 50%;
 }
@@ -82,7 +86,8 @@ hr{
 }
 
 .donation-plan-div .food {
-     height: 200px;
+     height: 250px;
+     width: 400px;
      background-color: #a9c3c3;
      padding: 15px;
      margin: 10px;
@@ -90,7 +95,8 @@ hr{
      text-align: left;
 }
 .donation-plan-div .shelter {
-     height: 200px;
+     height: 250px;
+     width: 400px;
      background-color: #f4c49a;
      padding: 15px;
      margin: 10px;
@@ -98,7 +104,8 @@ hr{
      text-align: left;
 }
 .donation-plan-div .education {
-     height: 200px;
+     height: 250px;
+     width: 400px;
      background-color: #d2eaa2;
      padding: 15px;
      margin: 10px;
@@ -129,8 +136,11 @@ hr{
  .updates div input{
     border: none;
     background-color: #d4d9dd;
-    height: 20px;
-    padding: 6px;
+    height: 25px;
+    width: 180px;
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom:5px;
     outline: none;
  }
  footer{
